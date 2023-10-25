@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Dashboard</title>
-    <!-- BOOTSRAP CSS -->
+    <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
     ">
-    <!-- BOOTSRAP CSS -->
+    <!-- BOOTSTRAP CSS -->
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FONT AWESOME -->
@@ -21,6 +21,62 @@
     <!-- MIO CSS -->
   </head>
   <body>
+    <!-- HEADER -->
+    <header class="row align-items-center ms-1 ms-md-2 me-1 me-md-2">
+      <!-- LEFT-HEADER -->
+      <div class="col sc-left-header">
+        <img src="img/logo.svg" alt="" class="img-fluid d-none d-md-inline-block ps-2">
+        <img src="img/mobile-logo.png" alt="" class="img-fluid d-md-none ps-1">
+      </div>
+      <!-- LEFT-HEADER -->
+      <!-- CENTER-HEADER -->
+      <div class="col sc-center-header pe-0">
+        <div class="row">
+          <div class="col flex-grow-1">
+            <div class="input-group ">
+              <span class="input-group-text border-0" id="search-bar-icon">
+                <i class="fa-solid fa-magnifying-glass fs-5"></i>
+              </span>
+              <input type="text" class="form-control border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="barra-ricerca" aria-describedby="search-bar-icon" id="search-bar">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CENTER-HEADER -->
+      <!-- RIGHT-HEADER -->
+      <div class="col-auto sc-right-header">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item border-0 d-none d-md-inline-block">
+            <i class="fa-solid fa-list pt-2"></i>
+          </li>
+          <li class="list-group-item border-0 d-none d-md-inline-block">
+            <i class="fa-solid fa-circle-question pt-2"></i>
+          </li>
+          <li class="list-group-item border-0 d-none d-md-inline-block">
+            <i class="fa-solid fa-ellipsis-vertical pt-2"></i>
+          </li>
+          <li class="list-group-item border-0 ps-md-1 pe-md-1">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown bg-white text-warning border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bell"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- RIGHT-HEADER -->
+    </header>
+    <!-- HEADER -->
+    <!-- MAIN -->
+    <main>
+
+    </main>
+    <!-- MAIN -->
     <!-- JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- JS BOOTSTRAP -->
