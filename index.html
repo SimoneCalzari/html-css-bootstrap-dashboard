@@ -22,59 +22,56 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="row align-items-center">
-      <!-- LEFT-HEADER -->
-      <div class="col sc-left-header">
-        <img src="img/logo.svg" alt="" class="img-fluid d-none d-md-inline-block ps-2">
-        <img src="img/mobile-logo.png" alt="" class="img-fluid d-md-none ps-1">
-      </div>
-      <!-- LEFT-HEADER -->
-      <!-- CENTER-HEADER -->
-      <div class="col sc-center-header pe-0">
-        <div class="row">
-          <div class="col flex-grow-1">
-            <div class="input-group ">
-              <span class="input-group-text border-0" id="search-bar-icon">
-                <i class="fa-solid fa-magnifying-glass fs-5"></i>
+    <header>
+      <div class="container-fluid h-100">
+        <div class="row h-100 align-items-center">
+          <!-- LEFT-HEADER -->
+          <div class="col-auto sc-left-header">
+            <img src="img/logo.svg" alt="logo-big" class="img-fluid d-none d-lg-block ">
+            <img src="img/mobile-logo.png" alt="logo-small" class="img-fluid d-lg-none">
+          </div>
+          <!-- LEFT-HEADER -->
+          <!-- CENTER-HEADER -->
+          <div class="col sc-center-header">
+            <div class="input-group">
+              <span class="input-group-text border-0 ps-2 pe-1" id="search-bar-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </span>
-              <input type="text" class="form-control border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="barra-ricerca" aria-describedby="search-bar-icon" id="search-bar">
+              <input type="text" class="form-control border-0 ps-2 pe-2 shadow-none d-4" aria-label="search-bar" aria-describedby="search-bar-icon" placeholder="Prova a cercare: Lezioni di Laravel">
             </div>
           </div>
+          <!-- CENTER-HEADER -->
+          <!-- RIGHT-HEADER -->
+          <div class="col-auto sc-right-header">
+            <div class="list-group list-group-horizontal">
+              <button type="button" class="list-group-item list-group-item-action border-0 d-none d-lg-block" disabled>
+                <i class="fa-solid fa-list"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action border-0 d-none d-lg-block disabled">
+                <i class="fa-solid fa-circle-question"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action border-0 d-none d-lg-block disabled">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+              <div class="dropdown">
+                <button type="button" class="list-group-item list-group-item-action border-0 text-warning" data-bs-toggle="dropdown">
+                  <i class="fa-solid fa-bell"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- RIGHT-HEADER -->
         </div>
       </div>
-      <!-- CENTER-HEADER -->
-      <!-- RIGHT-HEADER -->
-      <div class="col-auto sc-right-header">
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item border-0 d-none d-md-inline-block">
-            <i class="fa-solid fa-list pt-2"></i>
-          </li>
-          <li class="list-group-item border-0 d-none d-md-inline-block">
-            <i class="fa-solid fa-circle-question pt-2"></i>
-          </li>
-          <li class="list-group-item border-0 d-none d-md-inline-block">
-            <i class="fa-solid fa-ellipsis-vertical pt-2"></i>
-          </li>
-          <li class="list-group-item border-0 ps-md-1 pe-md-1">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown bg-white text-warning border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-bell"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Profilo</a></li>
-                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <!-- RIGHT-HEADER -->
     </header>
     <!-- HEADER -->
     <!-- MAIN -->
     <main>
-
     </main>
     <!-- MAIN -->
     <!-- JS BOOTSTRAP -->

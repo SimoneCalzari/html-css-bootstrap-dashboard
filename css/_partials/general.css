@@ -6,22 +6,31 @@ header {
   height: 70px;
 }
 
-header .sc-left-header {
-  max-width: 70px;
+header .sc-center-header {
+  --bs-tertiary-bg: #e5e5e5;
+}
+
+header .sc-center-header {
+  --bs-body-bg: #e5e5e5;
+}
+
+header .sc-center-header input {
+  font-size: 14px;
+  height: 40px;
+  
+}
+
+header .sc-center-header i {
+  font-size: 18px;
+}
+
+header .sc-right-header button {
+  padding: 12px;
 }
 
 
-
-header .sc-center-header #search-bar-icon {
-  background-color: var(--sc-bkg-search-header);
-}
-
-header .sc-center-header #search-bar {
-  background-color: var(--sc-bkg-search-header);
-}
-
-header .sc-left-header {
-
+main {
+  height: calc(100vh - 70px);
 }
 
 @media screen and (min-width: 576px) {
@@ -29,12 +38,11 @@ header .sc-left-header {
 }
 
 @media screen and (min-width: 768px) {
-  header .sc-left-header {
-    max-width: 150px;
-  }
   
 }
 
-@media screen and (min-width: 992px) {
-  
+@media screen and (max-width: 991px) {
+  header .sc-left-header {
+    max-width: 74px;
+  }
 }
