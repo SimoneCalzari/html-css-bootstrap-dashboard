@@ -110,7 +110,47 @@
         </ul>
       </div>
       <!-- SIDEBAR -->
-      <div class="sc-main-right overflow-auto">
+      <div class="sc-main-right">
+        <div class="container-fluid">
+          <div class="row sc-main-right-top text-white pt-4 pb-4">
+            <div class="col-12 col-md-4 col-lg-2 order-md-1 mb-3">
+              <div class="d-flex align-items-start">
+                <span class="align-self-center">Nuovo Studente</span>
+                <button class="btn text-white pt-0 pb-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <i class="fa-regular fa-square-plus align-top fs-1"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-6 mb-2">
+              <h2>Boolean <span class="badge rounded-pill">Piano blaze</span></h2>
+              <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><span class="badge rounded-pill">3 App</span></li>
+                  <li class="breadcrumb-item">
+                    <ol class="breadcrumb">
+                      <li><span class="badge rounded-pill me-1 d-lg-none"> + </span></li>
+                      <li><span class="badge rounded-pill me-1 d-none d-lg-block">Boolean mobile app</span></li>
+                      <li><span class="badge rounded-pill me-1 d-none d-lg-block">Boolean web app</span></li>
+                      <li><span class="badge rounded-pill me-1 d-none d-lg-block">Boolean blog app</span></li>
+                    </ol>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="mb-1">Studenti online negli ultimi 30 minuti</div>
+              <div class="fs-2">125</div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <!-- MAIN -->
